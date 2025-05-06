@@ -44,7 +44,10 @@ class Program
             Console.WriteLine("You are probably pretty cold");
         }
         */
-
+        //Change a string to an integer using its values
+        string numberString = "12";
+        int numberInteger = int.Parse(numberString); //Using .toString() and .Parse() we can change variables
+        Console.Write(numberInteger);
 
     }
 }
