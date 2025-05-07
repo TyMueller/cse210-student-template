@@ -1,22 +1,13 @@
 using System;
 using System.Globalization;
-
+public class Book
+{
+    string title;
+}
 class Program
 {
     static void Main(string[] args)
     {
-        /*
-        int x;
-        x = 5;
-
-        int y = 33;
-
-
-        Console.WriteLine("Hello Stinkey World!");
-
-        Console.WriteLine($"X is {x} and y is {y} so them added is {x + y}"); //How can I add these together?
-        */
-
         /*Have a user enter their name:
 
         Console.Write("Enter your name: ");
@@ -44,10 +35,16 @@ class Program
             Console.WriteLine("You are probably pretty cold");
         }
         */
+        /*
         //Change a string to an integer using its values
         string numberString = "12";
         int numberInteger = int.Parse(numberString); //Using .toString() and .Parse() we can change variables
         Console.Write(numberInteger);
+        */
+        for (int x = 0; x <= 12 ; x+=2 )
+        {
+            Console.WriteLine(x);
+        }
 
     }
 }
